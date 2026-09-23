@@ -1,3 +1,24 @@
-title: My Portfolio
-Author: Aamina
-theme: minima
+---
+---
+
+@import "minima";
+
+body, p, li, h1, h2, h3, h4, h5, h6 {
+  font-family: "Times New Roman", Times, Georgia, serif;
+}
+
+body {
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+h1 {
+  border-bottom: 2px solid #1a1a1a;
+  padding-bottom: 8px;
+}
+
+h2 {
+  margin-top: 32px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 4px;
+}
